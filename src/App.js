@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -22,4 +22,21 @@ function App() {
   );
 }
 
+export default App;*/
+// App.js
+import React from 'react';
+import AddTask from './components/AddTask';
+import TaskList from './components/TaskList';
+
+const App = () => {
+  return (
+    <div className="App">
+      <h1>To-Do App</h1>
+      <AddTask />
+      <TaskList />
+    </div>
+  );
+};
+
 export default App;
+

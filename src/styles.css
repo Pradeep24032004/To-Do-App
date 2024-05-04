@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  /*#FDFA72*/
+    margin: 0;
+    padding: 0;
+  }
+  #ipt{
+    position:absolute;
+    top:140px;
+    left:600px;
+    width:250px;
+    height:40px;
+  }
+  #addtask{
+    position:absolute;
+    top:145px;
+    left:870px;
+    width:150px;
+    height:40px;
+  }
+  #chkbx{
+    position:relative;
+    top:200px;
+    left:590px;
+    padding: 10px;
+  }
+  #txt{
+    position:relative;
+    top:200px;
+    left:620px;
+  }
+  #dlt{
+    position:relative;
+    top:200px;
+    left:-620px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .task span {
+    flex-grow: 1;
+    color: #333;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
