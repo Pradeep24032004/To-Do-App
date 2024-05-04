@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Depolyed link
 
-https://rolex-todolist.surge.sh/
+https://rolex-todolistapp1.surge.sh/
 
 ## Available Scripts
 
