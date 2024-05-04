@@ -3,7 +3,7 @@ body {
     background-color: #f0f0f0;  /*#FDFA72*/
     margin: 0;
     padding: 0;
-  }
+  }/*
   #ipt{
     position:absolute;
     top:140px;
@@ -17,12 +17,31 @@ body {
     left:870px;
     width:150px;
     height:40px;
-  }
+  }*/
+  #ipt {
+    position: relative;
+    top: 120px; /* Move the element down by half of its height */
+    left: 45%; /* Move the element right by half of its width */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    width: 250px;
+    height: 40px;
+}
+
+#addtask {
+    position: relative;
+    top: 120px; /* Move the element down by half of its height */
+    left: 45%; /* Move the element right by half of its width */
+    transform: translate(-50%, -50%); /* Center the element precisely */
+    width: 150px;
+    height: 40px;
+}
+
+  /*
   #chkbx{
     position:relative;
     top:200px;
     left:590px;
-    padding: 10px;
+    padding: 80px;
   }
   #txt{
     position:relative;
@@ -33,7 +52,26 @@ body {
     position:relative;
     top:200px;
     left:-620px;
-  }
+  }*/
+  #chkbx {
+    position: relative;
+    top: 210px; /* Adjust the top position */
+    left: 38%; /* Adjust the left position */
+    padding: 8%; /* Adjust padding */
+}
+
+#txt {
+    position: relative;
+    top: 210px; /* Adjust the top position */
+    left: 38%; /* Adjust the left position */
+}
+
+#dlt {
+    position: relative;
+    top: 210px; /* Adjust the top position */
+    left: -35%; /* Adjust the left position */
+}
+
   .container {
     max-width: 600px;
     margin: 50px auto;
