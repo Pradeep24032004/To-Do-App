@@ -16,6 +16,8 @@ In the project directory, you can run:
 
 ### `npm install redux`
 
+## To run the code:
+
 ### `npm start`
 
 Runs the app in the development mode.\
